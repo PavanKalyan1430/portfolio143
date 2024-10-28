@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Kalyan Reddy.B </title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Global Styling */
+        body {
+            background-color: #000; /* Full black background */
+            color: #fff;
+            font-family: 'Bookman Old Style', serif;
+            
+        }
+
+        a {
+            color: #ec9626; /* Popular blue shade */
+            text-decoration: none;
+        }
+
+        h1, h2, h3 {
+            color: #f19f33; /* Blue for titles */
+        }
+
+        p, a {
+            color: #ccc; /* Light grey text */
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #000000;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #222;
+        }
+        nav .nav-link {
+            color: #f5a42b;
+            transition: color 0.3s ease;
+        }
+        nav .nav-link:hover {
+            color: #e9a42d;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 60px 0;
+        }
+
+        /* Hover effect for cards and sections */
+        .hover-card, section {
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-card:hover, section:hover {
+            background-color: rgba(0, 0, 0, 0.1); /* Transparent blue hover */
+            box-shadow: 0 8px 20px rgb(238, 168, 103);
+        }
+
+        /* Project Cards */
+        .project-card {
+            background-color: #1a1a1a;
+            border: none;
+            transition: transform 0.3s ease-in-out;
+            color: #ffffff;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(240, 192, 81, 0.804);
+        }
+
+        /* Skills Boxes */
+        .skills-box {
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .skills-box:hover {
+            transform: scale(1.05);
+            background-color: rgba(237, 179, 87, 0.829);
+        }
+
+        /* Social Icons */
+        .social-links a {
+            color: #f1ad1a;
+            font-size: 2em;
+            margin: 0 10px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.2);
+            color: #edab2e;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Button */
+        .btn-custom {
+            background-color: #edb61f;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #efb821d1;
+            transform: translateY(-5px);
+        }
+        .navbar-brand {
+            color: #f1b15e; /* Change this to your desired color */
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Pavan Kalyan Reddy .B</h1>
+        <p>A Passionate Developer</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="text-center">
+        <div class="container hover-card">
+            <h2>About Me</h2>
+            <p class="lead">HELLO EVERYONE! I’m Pavan Kalyan Reddy.B , A second-year BTech student in Computer Science at Lovely Professional University. Passionate about expanding my technical skills, I’m highly motivated to explore the world of coding and pursue continuous learning. Driven by curiosity and the desire to innovate, I enjoy diving into new concepts and am always eager to challenge myself in tech..</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="text-center">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card project-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">A responsive food ordering webpage featuring menu browsing, streamlined navigation, and ordering capabilities, designed with HTML, CSS, and Bootstrap for a sleek, user-friendly experience tailored for e-commerce.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">University Holiday Calendar:
+                                An interactive annual calendar that displays all university holidays and important dates. Built with a clean interface, it allows easy navigation and quick access to the year’s schedule for students and faculty.TECHNOLOGIES USED : HTML,CSS,JAVASCIPT.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">A custom-designed portfolio website showcasing my skills, projects, and professional background. It features a responsive layout, interactive elements, and smooth navigation, providing an engaging user experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="text-center">
+        <div class="container hover-card">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skills-box">
+                        <h4>Programming Languages</h4>
+                        <p>Python, C, C++,</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skills-box">
+                        <h4>Web Development</h4>
+                        <p>HTML, CSS, javascript</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skills-box">
+                        <h4>Database Management</h4>
+                        <p>MySQL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-center">
+        <div class="container hover-card">
+            <h2>Contact</h2>
+            <p>Feel free to reach me via email or my social profiles:</p>
+            <p>Email: <a href="mailto:pk1698629@gmail.com" class="btn btn-custom">TEXT ME</a></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kalyan6565/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://codolio.com/profile/pavankalyan" target="_blank"><i class="bi bi-code-square"></i> Codolio</a>
+                <a href="https://www.instagram.com/mr._.kalyan._17/" target="_blank"><i class="bi bi-code-square"></i> Instagram</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section id="portfolio-link" class="text-center">
+        <div class="container hover-card">
+            <h2>View My Portfolio</h2>
+            <p>
+                Check out my portfolio by clicking the link below:
+            </p>
+            <a href="http://127.0.0.1:5500/portfolio3.html" target="_blank" class="btn btn-custom">My Portfolio</a>
+        </div>
+    </section> -->
+    
+
+    <!-- Footer -->
+    <!-- <footer>
+        //<p>&copy; 2024 Pavan Kalyan Reddy .B. All rights reserved.</p>//
+    </footer> -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
